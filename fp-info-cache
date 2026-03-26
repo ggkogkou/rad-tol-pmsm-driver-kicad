@@ -1,4 +1,4 @@
-25629563789582256
+25634887381226468
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -20,6 +20,13 @@ Diode
 0
 2
 2
+BLDC-Motor-Driver
+11240512
+112405-12-2
+Connector
+0
+5
+5
 BLDC-Motor-Driver
 031543110RFX
 031-5431-10RFX-3
@@ -56,12 +63,26 @@ Ferrite Bead
 2
 2
 BLDC-Motor-Driver
+INA214AIDCKT
+DCK (R-PDSO-G6)
+Integrated Circuit
+0
+6
+6
+BLDC-Motor-Driver
 IPB320N20N3GATMA1
 IPB320N20N3GATMA1-4
 MOSFET (N-Channel)
 0
 3
 3
+BLDC-Motor-Driver
+ISL21090
+SOIC_8--
+Integrated Circuit
+0
+8
+8
 BLDC-Motor-Driver
 L6498D-SO8
 SO-8+

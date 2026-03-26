@@ -199,6 +199,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BLDC-Motor-Driver_v2:112405-12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.524 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "112405-12"
+				(at -5.588 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BLDC-Motor-Driver:11240512"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.582/112405-12.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "BNC Straight PCB Jack Through Hole 75 Ohm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "14.1"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Part Number" ""
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Price/Stock" ""
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amphenol RF"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "112405-12"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "112405-12_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BLDC-Motor-Driver_v2:TPS7A4901DGNT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -477,7 +683,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x06_Pin"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -493,8 +699,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Pin"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -519,7 +725,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -554,7 +760,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_Pin_1_1"
+			(symbol "Conn_01x05_Pin_1_1"
 				(rectangle
 					(start 0.8636 5.207)
 					(end 0 4.953)
@@ -602,17 +808,6 @@
 				(rectangle
 					(start 0.8636 -4.953)
 					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -672,18 +867,6 @@
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -776,24 +959,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1881,18 +2046,6 @@
 		(uuid "08c12d06-e06d-4cfc-95ba-ccce8bd74e72")
 	)
 	(junction
-		(at 93.98 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26b31e57-ae9d-422f-8cbb-837424f04754")
-	)
-	(junction
-		(at 93.98 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30023dfd-8a0c-48c2-8b89-2ddfcaa048bf")
-	)
-	(junction
 		(at 92.71 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1923,6 +2076,12 @@
 		(uuid "981c6b36-99d3-447a-bfb5-a3320c3dfafa")
 	)
 	(junction
+		(at 101.6 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0430a3c-73f5-4d1b-9100-908a7b7a511a")
+	)
+	(junction
 		(at 142.24 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1935,16 +2094,16 @@
 		(uuid "c4809ba8-4f49-4be5-869e-aff4de26f247")
 	)
 	(no_connect
-		(at 69.85 176.53)
-		(uuid "05a6e727-540c-4be4-8007-025dbe624d11")
+		(at 116.84 176.53)
+		(uuid "0ce20d18-777e-469f-b92c-0b62671cdde3")
 	)
 	(no_connect
 		(at 152.4 209.55)
 		(uuid "14ad5c2c-8b04-4f23-8f08-904da5d1d87f")
 	)
 	(no_connect
-		(at 69.85 154.94)
-		(uuid "241580ad-da5b-4640-a9d9-9cae0f7e3f23")
+		(at 69.85 173.99)
+		(uuid "563d1553-f99e-4c9f-9780-ef413fe35be9")
 	)
 	(no_connect
 		(at 55.88 38.1)
@@ -1964,19 +2123,31 @@
 	)
 	(no_connect
 		(at 69.85 152.4)
-		(uuid "83f223b7-12a0-48d6-972d-7a9f38c35bbb")
+		(uuid "6fec5e41-e407-4900-b214-d3da47c15a5d")
+	)
+	(no_connect
+		(at 69.85 171.45)
+		(uuid "86f62471-453a-4de2-969d-e2557ee7fe1b")
 	)
 	(no_connect
 		(at 134.62 40.64)
 		(uuid "9040c156-f7ee-45cd-8d39-a2db694b6078")
 	)
 	(no_connect
+		(at 69.85 154.94)
+		(uuid "93c77bec-315a-40cb-964b-22a6158c6f59")
+	)
+	(no_connect
+		(at 69.85 149.86)
+		(uuid "c09343a5-5d83-428c-a426-483c9cc2da69")
+	)
+	(no_connect
 		(at 55.88 60.96)
 		(uuid "c1c549cf-b4ea-4e7b-bcf4-b79b04b192e2")
 	)
 	(no_connect
-		(at 69.85 173.99)
-		(uuid "e2226502-c5d0-464d-a64d-6c65ae835089")
+		(at 69.85 176.53)
+		(uuid "dce75ecc-2d77-4f85-b7d2-f70d1bcbb2da")
 	)
 	(no_connect
 		(at 152.4 194.31)
@@ -2024,16 +2195,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 124.46) (xy 93.98 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "135d0b55-bdc6-4c0a-80e7-b6098770969b")
-	)
-	(wire
-		(pts
 			(xy 92.71 44.45) (xy 92.71 46.99)
 		)
 		(stroke
@@ -2074,13 +2235,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 132.08) (xy 116.84 132.08)
+			(xy 92.71 154.94) (xy 92.71 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "203046c4-e0ba-4822-abc1-ff79bcc58540")
+		(uuid "1eab1560-4832-4d85-a1e6-d6d48f518fcd")
 	)
 	(wire
 		(pts
@@ -2104,6 +2265,26 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 128.27) (xy 101.6 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2d666e-51a4-49b5-90e2-faf88882f4a5")
+	)
+	(wire
+		(pts
+			(xy 116.84 134.62) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b32bcbc-fa81-4e84-bfa9-9e6f4830100e")
+	)
+	(wire
+		(pts
 			(xy 82.55 46.99) (xy 82.55 48.26)
 		)
 		(stroke
@@ -2111,16 +2292,6 @@
 			(type default)
 		)
 		(uuid "2f0a25b8-f1b1-4584-b4a8-c24f6bdcf823")
-	)
-	(wire
-		(pts
-			(xy 87.63 121.92) (xy 116.84 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f54da4e-dab8-4b88-8241-ff28832426f2")
 	)
 	(wire
 		(pts
@@ -2154,6 +2325,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 134.62) (xy 109.22 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31df776d-5ade-4880-af0e-4fef562c4109")
+	)
+	(wire
+		(pts
 			(xy 256.54 157.48) (xy 273.05 157.48)
 		)
 		(stroke
@@ -2161,16 +2342,6 @@
 			(type default)
 		)
 		(uuid "385684f8-b8e1-4809-aeb3-d413db754f68")
-	)
-	(wire
-		(pts
-			(xy 87.63 127) (xy 116.84 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a67dac2-e721-4954-8816-4365c012089f")
 	)
 	(wire
 		(pts
@@ -2191,6 +2362,16 @@
 			(type default)
 		)
 		(uuid "40e00d49-84a2-4dcc-86d0-6ffd18677e4d")
+	)
+	(wire
+		(pts
+			(xy 92.71 176.53) (xy 92.71 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3e9544-8a5d-4009-81de-bebdb43d3cb0")
 	)
 	(wire
 		(pts
@@ -2264,13 +2445,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 154.94) (xy 90.17 154.94)
+			(xy 97.79 128.27) (xy 101.6 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52bf15dd-ee23-48d0-b8a6-f33324411f5f")
+		(uuid "548a676e-91ec-4eaa-b626-77b8ff688186")
 	)
 	(wire
 		(pts
@@ -2344,16 +2525,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 129.54) (xy 93.98 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "654e2492-c0d5-4d27-801d-da68e4a316ab")
-	)
-	(wire
-		(pts
 			(xy 370.84 160.02) (xy 367.03 160.02)
 		)
 		(stroke
@@ -2361,6 +2532,16 @@
 			(type default)
 		)
 		(uuid "6e141d4e-2d31-4bf6-8192-e050de87786b")
+	)
+	(wire
+		(pts
+			(xy 109.22 135.89) (xy 97.79 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea6d477-f3aa-4e1e-8210-4b5087512a80")
 	)
 	(wire
 		(pts
@@ -2434,23 +2615,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 176.53) (xy 90.17 176.53)
+			(xy 97.79 130.81) (xy 116.84 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86b4092b-8210-4e7c-ad1b-628a046e8a49")
-	)
-	(wire
-		(pts
-			(xy 92.71 157.48) (xy 92.71 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b6887be-aab3-4a27-b831-2e9074f56a9e")
+		(uuid "83ba027c-501f-44e1-9894-5ff0db2af4bc")
 	)
 	(wire
 		(pts
@@ -2461,16 +2632,6 @@
 			(type default)
 		)
 		(uuid "8b7bfc84-647b-4f85-af94-fe1e96114f69")
-	)
-	(wire
-		(pts
-			(xy 92.71 179.07) (xy 92.71 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bbcb853-7898-4227-bbef-800a8de36045")
 	)
 	(wire
 		(pts
@@ -2584,13 +2745,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 134.62) (xy 93.98 137.16)
+			(xy 116.84 127) (xy 109.22 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aaa39e04-02b4-4569-8d84-cfdb529a2231")
+		(uuid "a8e4713b-e3a1-4ed2-aaed-76c741a9a208")
 	)
 	(wire
 		(pts
@@ -2614,6 +2775,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 133.35) (xy 101.6 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30c77a4-46cf-4198-b810-6f8e474e5613")
+	)
+	(wire
+		(pts
 			(xy 82.55 45.72) (xy 82.55 46.99)
 		)
 		(stroke
@@ -2631,6 +2802,16 @@
 			(type default)
 		)
 		(uuid "ba9cea80-40b5-4616-be17-a281d5424bd6")
+	)
+	(wire
+		(pts
+			(xy 90.17 154.94) (xy 92.71 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc422e62-13e5-4a8c-94dc-3e8c58b142f1")
 	)
 	(wire
 		(pts
@@ -2654,13 +2835,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 129.54) (xy 93.98 134.62)
+			(xy 97.79 133.35) (xy 101.6 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3441e02-8686-473a-b5b5-89c805f0c1aa")
+		(uuid "c2b785e1-67b7-49ae-80e8-d9256da09686")
 	)
 	(wire
 		(pts
@@ -2704,6 +2885,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 176.53) (xy 92.71 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea40d9a-8fa1-4cbc-a386-ebf430c11856")
+	)
+	(wire
+		(pts
 			(xy 92.71 46.99) (xy 97.79 46.99)
 		)
 		(stroke
@@ -2721,26 +2912,6 @@
 			(type default)
 		)
 		(uuid "d2ce80d9-40a1-49c2-9183-d3e2e0991726")
-	)
-	(wire
-		(pts
-			(xy 87.63 134.62) (xy 93.98 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f95f17-c4e8-460e-b626-56a899151167")
-	)
-	(wire
-		(pts
-			(xy 87.63 124.46) (xy 93.98 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a05f62-f0e6-4913-a172-24f5510a5b1a")
 	)
 	(wire
 		(pts
@@ -2784,6 +2955,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 127) (xy 109.22 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34547eb-c648-4f6e-99c4-a7be3e9e8537")
+	)
+	(wire
+		(pts
 			(xy 373.38 124.46) (xy 373.38 166.37)
 		)
 		(stroke
@@ -2791,6 +2972,16 @@
 			(type default)
 		)
 		(uuid "e3e237bc-422e-4089-9948-ef4233e9b3bb")
+	)
+	(wire
+		(pts
+			(xy 97.79 125.73) (xy 109.22 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e672b7f3-ccd5-4be5-b890-bb927cbce0ce")
 	)
 	(wire
 		(pts
@@ -3067,6 +3258,212 @@
 		)
 	)
 	(symbol
+		(lib_id "BLDC-Motor-Driver_v2:112405-12")
+		(at 80.01 173.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10b56ef1-5e90-46cf-b6f2-0a50df4e78e8")
+		(property "Reference" "J7"
+			(at 80.01 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "112405-12"
+			(at 80.01 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLDC-Motor-Driver:11240512"
+			(at 96.52 79.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.582/112405-12.pdf"
+			(at 96.52 -20.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC Straight PCB Jack Through Hole 75 Ohm"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "14.1"
+			(at 96.52 -220.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 96.52 -320.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 96.52 -420.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol RF"
+			(at 96.52 -520.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "112405-12"
+			(at 96.52 -620.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90e857b3-3b1e-466a-a032-8f3874c85e0c")
+		)
+		(pin "1"
+			(uuid "cc696c1d-6e40-4011-a7e8-98b43f52d257")
+		)
+		(pin "5"
+			(uuid "b22a1470-c6cc-48e1-8c16-1f3e49053292")
+		)
+		(pin "3"
+			(uuid "2925e9de-e745-453b-84a2-262362a86077")
+		)
+		(pin "4"
+			(uuid "e12f0987-1532-44b8-8f1d-4396ab3cc16c")
+		)
+		(instances
+			(project ""
+				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 92.71 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "110692cc-3d19-4bff-80c0-673b901c7dd8")
+		(property "Reference" "J5"
+			(at 93.345 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 93.345 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical"
+			(at 92.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 92.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ccf4aebd-892b-41bc-a1c9-3c58338532fa")
+		)
+		(pin "4"
+			(uuid "4a879e12-35da-4238-9cce-0d1ff379d786")
+		)
+		(pin "3"
+			(uuid "b28189ab-8031-463b-8ce0-14d8461b717a")
+		)
+		(pin "2"
+			(uuid "e826a43e-e87f-44de-a5bd-50f498257e1c")
+		)
+		(pin "1"
+			(uuid "57a464e7-e0e3-4ade-b810-2e4ae6149bed")
+		)
+		(instances
+			(project ""
+				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 54.61 0)
 		(unit 1)
@@ -3127,6 +3524,72 @@
 			(project "BLDC_Motor_Driver"
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ae11d9e-5fce-47c2-b163-cacd6b773a17")
+		(property "Reference" "#PWR022"
+			(at 92.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2dc53dc-38ac-4ade-ad05-bbe63aa3907a")
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3590,6 +4053,201 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 101.6 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d05801f-ee50-45fa-9070-60d89ca97058")
+		(property "Reference" "#PWR023"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ceb1398-eece-4357-9714-2ee7cb27bd09")
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BLDC-Motor-Driver_v2:112405-12")
+		(at 80.01 152.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "446bf0ea-a984-4dfc-b9c8-ad9ddf1fcf83")
+		(property "Reference" "J4"
+			(at 80.01 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "112405-12"
+			(at 80.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLDC-Motor-Driver:11240512"
+			(at 96.52 57.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.582/112405-12.pdf"
+			(at 96.52 -42.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC Straight PCB Jack Through Hole 75 Ohm"
+			(at 80.01 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "14.1"
+			(at 96.52 -242.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 96.52 -342.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 96.52 -442.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol RF"
+			(at 96.52 -542.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "112405-12"
+			(at 96.52 -642.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57d7d15e-e69c-4487-8326-8e36cd8626e6")
+		)
+		(pin "1"
+			(uuid "2d43af96-fa62-45db-add6-931da454b1b6")
+		)
+		(pin "5"
+			(uuid "fb5315f5-3a09-48af-9e56-534f395a5eb2")
+		)
+		(pin "3"
+			(uuid "cb339d9e-ef9e-43d4-b145-aeb9610d9b8b")
+		)
+		(pin "4"
+			(uuid "70c73325-38a6-4c70-a7cb-6c6a3713e0b8")
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 69.85 43.18 0)
 		(mirror y)
@@ -3795,131 +4453,6 @@
 			(project ""
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
 					(reference "IC8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BLDC-Motor-Driver_v2:031-5431-10RFX")
-		(at 80.01 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c86f746-39e1-4e61-ba01-6305951f24a9")
-		(property "Reference" "J5"
-			(at 80.01 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "031-5431-10RFX"
-			(at 80.01 148.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BLDC-Motor-Driver:031543110RFX"
-			(at 63.5 58.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA15/760686.pdf"
-			(at 63.5 -41.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Amphenol BNC Series Right Angle 50 Through Hole BNC Connector, jack, Nickel, Solder Termination"
-			(at 80.01 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "15.6"
-			(at 63.5 -241.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "523-31-5431-10RFX"
-			(at 63.5 -341.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-RF/031-5431-10RFX?qs=py4qCovljJ8doXL0muNs1w%3D%3D"
-			(at 63.5 -441.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol"
-			(at 63.5 -541.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "031-5431-10RFX"
-			(at 63.5 -641.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f049e352-6bed-4d1c-ba17-e3fe5c43868b")
-		)
-		(pin "1"
-			(uuid "1ecf65d7-2f7f-47bc-876b-e56744fdea12")
-		)
-		(pin "2"
-			(uuid "b9c42c10-169b-4dc2-8f2a-7dd016c42b08")
-		)
-		(pin "3"
-			(uuid "e7fc6a62-38f0-4d63-953a-24ed71bd4b76")
-		)
-		(instances
-			(project "BLDC_Motor_Driver"
-				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4191,16 +4724,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 157.48 0)
+		(at 92.71 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "897cb0d5-d80f-45da-aee8-b0b5aeaf55d5")
-		(property "Reference" "#PWR022"
-			(at 92.71 163.83 0)
+		(uuid "8a6d882d-2059-4461-88e2-633f9a5ec79d")
+		(property "Reference" "#PWR020"
+			(at 92.71 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4742,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 162.56 0)
+			(at 92.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +4750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 157.48 0)
+			(at 92.71 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 157.48 0)
+			(at 92.71 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4768,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 157.48 0)
+			(at 92.71 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,12 +4777,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0edf55a1-b628-4c76-ab0a-84862f4f6e1d")
+			(uuid "5e9fb950-8fe9-46d6-8ac8-254347738ca5")
 		)
 		(instances
 			(project "BLDC_Motor_Driver"
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
-					(reference "#PWR022")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4588,197 +5121,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BLDC-Motor-Driver_v2:031-5431-10RFX")
-		(at 80.01 175.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a451b0db-a266-4601-9105-b4523f938172")
-		(property "Reference" "J4"
-			(at 80.01 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "031-5431-10RFX"
-			(at 80.01 169.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BLDC-Motor-Driver:031543110RFX"
-			(at 63.5 80.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA15/760686.pdf"
-			(at 63.5 -19.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Amphenol BNC Series Right Angle 50 Through Hole BNC Connector, jack, Nickel, Solder Termination"
-			(at 80.01 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "15.6"
-			(at 63.5 -219.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "523-31-5431-10RFX"
-			(at 63.5 -319.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-RF/031-5431-10RFX?qs=py4qCovljJ8doXL0muNs1w%3D%3D"
-			(at 63.5 -419.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol"
-			(at 63.5 -519.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "031-5431-10RFX"
-			(at 63.5 -619.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "d838d100-b17c-4a70-80c3-09a0e4d5dbe9")
-		)
-		(pin "1"
-			(uuid "10e1f545-16ac-4360-a6a4-14761794c35b")
-		)
-		(pin "2"
-			(uuid "6126eb80-6bee-46c5-ae0f-e40a90671af8")
-		)
-		(pin "3"
-			(uuid "3dad3ebe-786c-4087-a2f2-1a8322b689d3")
-		)
-		(instances
-			(project "BLDC_Motor_Driver"
-				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aaf0f065-fe5a-4280-844c-c96670e7cb94")
-		(property "Reference" "#PWR020"
-			(at 92.71 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34a13ff0-611b-4e45-af4e-b4d4a8d0a29d")
-		)
-		(instances
-			(project ""
-				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 31.75 34.29 0)
 		(unit 1)
@@ -5051,6 +5393,7 @@
 	(symbol
 		(lib_id "BLDC-Motor-Driver_v2:031-5431-10RFX")
 		(at 45.72 59.69 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5058,7 +5401,7 @@
 		(dnp no)
 		(uuid "cf5044a6-1a90-4451-afc9-126b70a6958d")
 		(property "Reference" "J3"
-			(at 45.72 50.8 0)
+			(at 45.72 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5409,7 @@
 			)
 		)
 		(property "Value" "031-5431-10RFX"
-			(at 45.72 53.34 0)
+			(at 45.72 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +5417,7 @@
 			)
 		)
 		(property "Footprint" "BLDC-Motor-Driver:031543110RFX"
-			(at 62.23 154.61 0)
+			(at 62.23 -35.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5427,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA15/760686.pdf"
-			(at 62.23 254.61 0)
+			(at 62.23 -135.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5446,7 @@
 			)
 		)
 		(property "Height" "15.6"
-			(at 62.23 454.61 0)
+			(at 62.23 -335.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +5456,7 @@
 			)
 		)
 		(property "Mouser Part Number" "523-31-5431-10RFX"
-			(at 62.23 554.61 0)
+			(at 62.23 -435.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5466,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-RF/031-5431-10RFX?qs=py4qCovljJ8doXL0muNs1w%3D%3D"
-			(at 62.23 654.61 0)
+			(at 62.23 -535.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +5476,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol"
-			(at 62.23 754.61 0)
+			(at 62.23 -635.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5486,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "031-5431-10RFX"
-			(at 62.23 854.61 0)
+			(at 62.23 -735.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,86 +5511,6 @@
 			(project "BLDC_Motor_Driver"
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 82.55 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc042000-ad2a-4ea1-b878-434c4373c9bb")
-		(property "Reference" "J6"
-			(at 83.185 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06_Pin"
-			(at 83.185 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 82.55 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 82.55 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "bf819f76-dadb-4b3a-98c6-2603d3f81aea")
-		)
-		(pin "5"
-			(uuid "17372d66-b163-4872-8850-844b5fbed1a5")
-		)
-		(pin "4"
-			(uuid "1c044805-e9d0-49ca-a042-eb507efced59")
-		)
-		(pin "3"
-			(uuid "ea130bd6-30c7-4358-a24c-d86868f56a71")
-		)
-		(pin "2"
-			(uuid "ad68f72e-27f0-4a2a-85eb-4d3a373554a8")
-		)
-		(pin "1"
-			(uuid "03808976-44af-409c-ab2b-51ef3b8e2fd5")
-		)
-		(instances
-			(project ""
-				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5514,72 +5777,6 @@
 			(project "BLDC_Motor_Driver"
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee2c39c0-a9f2-4ad7-bde5-86472d2feacf")
-		(property "Reference" "#PWR074"
-			(at 93.98 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68e8b2ed-b722-4905-8d3d-fe5cece813f2")
-		)
-		(instances
-			(project "BLDC_Motor_Driver"
-				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5865,26 +6062,6 @@
 				(justify left)
 			)
 		)
-		(pin "SERCOM4_PAD1" input
-			(at 116.84 154.94 180)
-			(uuid "dadb609d-e373-409f-aabb-5d4143ad9040")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SERCOM4_PAD2" input
-			(at 116.84 152.4 180)
-			(uuid "0816e0c0-1cc1-43a0-9fcf-73c2b0f50e1c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SERCOM5_PAD0" input
 			(at 116.84 95.25 180)
 			(uuid "796bbffd-6537-4b66-84d4-82452164189f")
@@ -5986,7 +6163,7 @@
 			)
 		)
 		(pin "BENCHMARK_IO_1" input
-			(at 116.84 121.92 180)
+			(at 116.84 127 180)
 			(uuid "6b1cea46-a425-4f46-afe0-55171333a9e3")
 			(effects
 				(font
@@ -5996,7 +6173,7 @@
 			)
 		)
 		(pin "BENCHMARK_IO_2" input
-			(at 116.84 127 180)
+			(at 116.84 130.81 180)
 			(uuid "b5c3dad3-4278-424b-b1d0-1ce503130716")
 			(effects
 				(font
@@ -6006,8 +6183,18 @@
 			)
 		)
 		(pin "BENCHMARK_IO_3" input
-			(at 116.84 132.08 180)
+			(at 116.84 134.62 180)
 			(uuid "9b974fa9-cdac-42ad-8d96-ebae2c1310cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERCOM1_PAD0" input
+			(at 116.84 152.4 180)
+			(uuid "a4188bf0-83bb-4716-824f-ac5f965df125")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,8 +6535,8 @@
 		)
 	)
 	(sheet
-		(at 48.26 90.17)
-		(size 54.61 21.59)
+		(at 60.96 90.17)
+		(size 41.91 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6364,7 +6551,7 @@
 		)
 		(uuid "fe999573-0933-4da8-ba03-3d5563343088")
 		(property "Sheetname" "Position Sensor - Magnetic Encoder"
-			(at 48.26 89.4584 0)
+			(at 60.96 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6560,7 @@
 			)
 		)
 		(property "Sheetfile" "encoder.kicad_sch"
-			(at 48.26 112.3446 0)
+			(at 60.96 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
