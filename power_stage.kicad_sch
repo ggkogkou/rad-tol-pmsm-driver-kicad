@@ -4330,73 +4330,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 361.95 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07218854-81a7-49ff-895b-2ca3b8123440")
-		(property "Reference" "C19"
-			(at 361.696 100.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 361.696 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 365.76 103.1748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 361.95 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 361.95 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4428a7f-8193-40d3-bb14-e3f84a285ae0")
-		)
-		(pin "2"
-			(uuid "5b2c36ee-33fb-444a-9376-aec1323e6d75")
-		)
-		(instances
-			(project "BLDC_Motor_Driver"
-				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BLDC-Motor-Driver_v2:L6498D")
 		(at 85.09 182.88 0)
 		(unit 1)
@@ -5384,73 +5317,6 @@
 			(project "BLDC_Motor_Driver"
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 177.8 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a071ed4-4751-479b-b617-d9c74d9e0ca9")
-		(property "Reference" "C9"
-			(at 177.546 152.654 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 177.546 159.766 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 155.2448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 177.8 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9b86cda-236b-42af-b660-6a6ebfeb98b2")
-		)
-		(pin "2"
-			(uuid "38be7ef1-9803-4acc-ba37-0ac6586d87da")
-		)
-		(instances
-			(project "BLDC_Motor_Driver"
-				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7363,6 +7229,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 361.95 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "922c49ce-f877-4e4c-b0f1-de135d41fbd4")
+		(property "Reference" "C6"
+			(at 361.061 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220uF"
+			(at 361.061 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLDC-Motor-Driver:CAPAE1030X1050N"
+			(at 365.76 103.1748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 361.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7996c8ab-b872-4fae-a067-6da6ba489f68")
+		)
+		(pin "1"
+			(uuid "650e30e5-75b6-44c5-94ab-7fa502fabbf5")
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 298.45 113.03 0)
 		(unit 1)
@@ -8382,6 +8316,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 177.8 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1908357-80a2-4bfb-8fcc-42eaea5991c6")
+		(property "Reference" "C5"
+			(at 176.911 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220uF"
+			(at 176.911 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLDC-Motor-Driver:CAPAE1030X1050N"
+			(at 181.61 51.1048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6fbb64c-947b-4bd3-88ce-9db321baa366")
+		)
+		(pin "1"
+			(uuid "65871f44-7a11-44a0-b208-477247ff0b69")
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 157.48 157.48 0)
 		(unit 1)
@@ -8651,73 +8653,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 177.8 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d87c2adb-b023-4c13-8415-e8fd4a5b926f")
-		(property "Reference" "C4"
-			(at 177.546 48.514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 177.546 55.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 51.1048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 177.8 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b68569ab-f624-4be8-a846-6aeb7db5dcc1")
-		)
-		(pin "2"
-			(uuid "a9b51068-ffed-4a71-8cc7-56d944db349a")
-		)
-		(instances
-			(project ""
-				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 316.23 105.41 0)
 		(unit 1)
@@ -8913,6 +8848,74 @@
 			(project "BLDC_Motor_Driver"
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
 					(reference "Cboot3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 177.8 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd7b5944-43d9-411f-baf0-58758e8376b4")
+		(property "Reference" "C4"
+			(at 176.911 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220uF"
+			(at 176.911 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLDC-Motor-Driver:CAPAE1030X1050N"
+			(at 181.61 155.2448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 177.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f42975e2-180c-4b14-a140-edcdaf99fa79")
+		)
+		(pin "1"
+			(uuid "fc298617-8417-4dd2-a50d-ff50ccd593b6")
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
+					(reference "C4")
 					(unit 1)
 				)
 			)
