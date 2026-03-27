@@ -2094,10 +2094,6 @@
 		(uuid "c4809ba8-4f49-4be5-869e-aff4de26f247")
 	)
 	(no_connect
-		(at 116.84 176.53)
-		(uuid "0ce20d18-777e-469f-b92c-0b62671cdde3")
-	)
-	(no_connect
 		(at 152.4 209.55)
 		(uuid "14ad5c2c-8b04-4f23-8f08-904da5d1d87f")
 	)
@@ -6042,26 +6038,6 @@
 				(justify right)
 			)
 		)
-		(pin "SERCOM3_PAD1" input
-			(at 116.84 176.53 180)
-			(uuid "7503f03f-c726-4e5b-83ba-bc9c83a9c21b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SERCOM3_PAD2" input
-			(at 116.84 173.99 180)
-			(uuid "f1750a09-4a11-475a-a03c-b7565ed8e424")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SERCOM5_PAD0" input
 			(at 116.84 95.25 180)
 			(uuid "796bbffd-6537-4b66-84d4-82452164189f")
@@ -6195,6 +6171,16 @@
 		(pin "SERCOM1_PAD0" input
 			(at 116.84 152.4 180)
 			(uuid "a4188bf0-83bb-4716-824f-ac5f965df125")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERCOM4_PAD0" input
+			(at 116.84 173.99 180)
+			(uuid "58d444bc-6b0a-49b6-9dfc-a636496d8828")
 			(effects
 				(font
 					(size 1.27 1.27)
