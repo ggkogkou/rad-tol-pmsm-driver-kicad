@@ -5261,7 +5261,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "260f5b4d-ee6f-47f0-918e-22a1a3ceaa09")
+		(uuid "22776cc1-f169-4529-9d9f-a0dc0f3b1834")
 		(property "Reference" "R16"
 			(at 344.17 170.1799 0)
 			(effects
@@ -5271,7 +5271,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50mΩ"
+		(property "Value" "10mΩ"
 			(at 344.17 172.7199 0)
 			(effects
 				(font
@@ -5307,11 +5307,20 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-L4T12FR010DER"
+			(at 341.63 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e9540cf6-522e-4b0f-8386-9f3d70d80b8a")
+			(uuid "4a9253fd-7626-46d2-854e-37c50c51e298")
 		)
 		(pin "2"
-			(uuid "72cae0d4-37c6-4acc-a6e4-37f6eb592dfd")
+			(uuid "8376d1bd-db6a-41e8-9dcf-b2bc4ef1abd4")
 		)
 		(instances
 			(project "BLDC_Motor_Driver"
@@ -6360,6 +6369,84 @@
 			(project "BLDC_Motor_Driver"
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 157.48 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd503db-2351-45d0-865a-38847b8940f7")
+		(property "Reference" "R11"
+			(at 160.02 222.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10mΩ"
+			(at 160.02 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 158.496 223.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 157.48 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-L4T12FR010DER"
+			(at 157.48 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d9d31a9-87e2-4c2c-b548-80b2842ac000")
+		)
+		(pin "2"
+			(uuid "cc642d89-f42a-40e7-b40f-5197a6705ef0")
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7792,7 +7879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50mΩ"
+		(property "Value" "10mΩ"
 			(at 160.02 120.6499 0)
 			(effects
 				(font
@@ -7820,6 +7907,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 157.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-L4T12FR010DER"
 			(at 157.48 119.38 0)
 			(effects
 				(font
@@ -7975,75 +8071,6 @@
 			(project "BLDC_Motor_Driver"
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 157.48 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b939f0b0-1259-4034-aa36-44d2a8fa0c42")
-		(property "Reference" "R11"
-			(at 160.02 222.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mΩ"
-			(at 160.02 224.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 158.496 223.774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 157.48 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5679344c-7b31-4be0-899d-11d7bab8a95a")
-		)
-		(pin "2"
-			(uuid "d4ff869f-58b0-48d0-b515-b8edf9230636")
-		)
-		(instances
-			(project "BLDC_Motor_Driver"
-				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba/6881e12c-11b3-44bc-8480-7acbf9300e67"
-					(reference "R11")
 					(unit 1)
 				)
 			)
