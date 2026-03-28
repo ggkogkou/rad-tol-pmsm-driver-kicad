@@ -528,7 +528,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BLDC_Motor_Driver.step",
       "svg": "",
       "vrml": ""
     },
