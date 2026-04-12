@@ -4725,6 +4725,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 154.94 223.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c42955c-9648-484c-98be-56896dcf9141")
+		(property "Reference" "H3"
+			(at 158.75 222.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 158.75 224.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 154.94 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 154.94 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a61c48e-c7d9-4bc5-a052-2fb4319948a6")
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 245.11 49.53 90)
 		(unit 1)
@@ -5462,16 +5529,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 154.94 231.14 270)
+		(at 154.94 215.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3de0027f-9a05-4dbd-b5a2-50596423f5b4")
-		(property "Reference" "H4"
-			(at 158.75 229.8699 90)
+		(uuid "425bf8fa-a0e7-4e78-97b2-e8b05fd56bf9")
+		(property "Reference" "H2"
+			(at 158.75 214.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +5547,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 158.75 232.4099 90)
+			(at 158.75 217.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,8 +5555,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 154.94 231.14 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 154.94 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +5565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 231.14 0)
+			(at 154.94 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5574,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 154.94 231.14 0)
+			(at 154.94 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,12 +5583,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "962afba1-682b-4140-9852-01defa871709")
+			(uuid "34738ddf-ff7e-42ea-b3ef-2f2a4148c34e")
 		)
 		(instances
 			(project "BLDC_Motor_Driver"
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5792,6 +5859,73 @@
 			(project ""
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 154.94 231.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55635af6-7f7f-4832-9e2e-14f0d6e53652")
+		(property "Reference" "H4"
+			(at 158.75 229.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 158.75 232.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 154.94 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 154.94 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ddcec78-8930-4177-82c3-979c842e552e")
+		)
+		(instances
+			(project "BLDC_Motor_Driver"
+				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7467,73 +7601,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 154.94 215.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db252df3-a8e3-4e61-acd8-1d3b165bf1db")
-		(property "Reference" "H2"
-			(at 158.75 214.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 158.75 217.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 154.94 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 154.94 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b3a21e5-e3d2-4f12-829b-72420730981c")
-		)
-		(instances
-			(project "BLDC_Motor_Driver"
-				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 297.18 78.74 0)
 		(unit 1)
@@ -7594,73 +7661,6 @@
 			(project ""
 				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 154.94 223.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e65e271e-9e6d-4357-b671-62c90feb5af2")
-		(property "Reference" "H3"
-			(at 158.75 222.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 158.75 224.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 154.94 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 154.94 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "916a4664-474f-44eb-90df-f1cf38d5d213")
-		)
-		(instances
-			(project "BLDC_Motor_Driver"
-				(path "/7abcc48e-1931-446f-8daf-9260c9f942ba"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -7760,7 +7760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 154.94 208.28 0)
 			(effects
 				(font
@@ -8195,9 +8195,9 @@
 				(justify left)
 			)
 		)
-		(pin "SERCOM1_PAD0" input
-			(at 116.84 166.37 180)
-			(uuid "a4188bf0-83bb-4716-824f-ac5f965df125")
+		(pin "SERCOM4_PAD0" input
+			(at 116.84 187.96 180)
+			(uuid "58d444bc-6b0a-49b6-9dfc-a636496d8828")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,9 +8205,9 @@
 				(justify left)
 			)
 		)
-		(pin "SERCOM4_PAD0" input
-			(at 116.84 187.96 180)
-			(uuid "58d444bc-6b0a-49b6-9dfc-a636496d8828")
+		(pin "SERCOM3_PAD2" input
+			(at 116.84 166.37 180)
+			(uuid "9169218b-975f-4b34-85f7-a7f713fec720")
 			(effects
 				(font
 					(size 1.27 1.27)
