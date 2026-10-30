@@ -104,12 +104,24 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: |
-          gh release create "${GITHUB_REF_NAME}" \
-            build/docs/BLDC_Motor_Driver.pdf \
-            build/3d/BLDC_Motor_Driver.step \
-            build/fabrication/BLDC_Motor_Driver_JLCPCB_Gerbers.zip \
-            build/bom/BLDC_Motor_Driver_BOM.csv \
-            build/bom/BLDC_Motor_Driver_Positions.csv \
-            build/bom/BLDC_Motor_Driver_InteractiveBOM.html \
-            build/drc-report.txt \
-            --verify-tag --generate-notes
+          if gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1; then
+            gh release upload "${GITHUB_REF_NAME}" \
+              build/docs/BLDC_Motor_Driver.pdf \
+              build/3d/BLDC_Motor_Driver.step \
+              build/fabrication/BLDC_Motor_Driver_JLCPCB_Gerbers.zip \
+              build/bom/BLDC_Motor_Driver_BOM.csv \
+              build/bom/BLDC_Motor_Driver_Positions.csv \
+              build/bom/BLDC_Motor_Driver_InteractiveBOM.html \
+              build/drc-report.txt \
+              --clobber
+          else
+            gh release create "${GITHUB_REF_NAME}" \
+              build/docs/BLDC_Motor_Driver.pdf \
+              build/3d/BLDC_Motor_Driver.step \
+              build/fabrication/BLDC_Motor_Driver_JLCPCB_Gerbers.zip \
+              build/bom/BLDC_Motor_Driver_BOM.csv \
+              build/bom/BLDC_Motor_Driver_Positions.csv \
+              build/bom/BLDC_Motor_Driver_InteractiveBOM.html \
+              build/drc-report.txt \
+              --verify-tag --generate-notes
+          fi
