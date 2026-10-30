@@ -1,0 +1,48 @@
+name: KiCad CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  hardware:
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:9.0-full
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare output directories
+        run: mkdir -p build/docs build/3d
+
+      - name: Check PCB design rules (errors only)
+        run: |
+          kicad-cli pcb drc \
+            --severity-error \
+            --exit-code-violations \
+            -o build/drc-report.txt \
+            BLDC_Motor_Driver.kicad_pcb
+
+      - name: Export schematic PDF
+        run: |
+          kicad-cli sch export pdf \
+            -o build/docs/BLDC_Motor_Driver.pdf \
+            BLDC_Motor_Driver.kicad_sch
+
+      - name: Export PCB STEP model
+        run: |
+          kicad-cli pcb export step \
+            -o build/3d/BLDC_Motor_Driver.step \
+            BLDC_Motor_Driver.kicad_pcb
+
+      - name: Upload outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-outputs
+          path: build/
+          if-no-files-found: warn
+
