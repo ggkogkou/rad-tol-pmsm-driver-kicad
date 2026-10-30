@@ -1,0 +1,127 @@
+name: KiCad CI/CD
+
+on:
+  push:
+    branches: [master]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:9.0-full
+      options: --user 0:0
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare output directories
+        run: mkdir -p build/docs build/3d build/fabrication/gerbers build/bom
+
+      - name: PCB DRC (errors only)
+        run: |
+          kicad-cli pcb drc \
+            --severity-error --exit-code-violations \
+            -o build/drc-report.txt BLDC_Motor_Driver.kicad_pcb
+
+      - name: Export schematic PDF
+        run: |
+          kicad-cli sch export pdf \
+            -o build/docs/BLDC_Motor_Driver.pdf BLDC_Motor_Driver.kicad_sch
+
+      - name: Export assembled PCB STEP
+        run: |
+          kicad-cli pcb export step \
+            -o build/3d/BLDC_Motor_Driver.step BLDC_Motor_Driver.kicad_pcb
+
+      - name: Export fabrication files
+        run: |
+          kicad-cli pcb export gerbers \
+            --layers F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts \
+            -o build/fabrication/gerbers/ BLDC_Motor_Driver.kicad_pcb
+
+          kicad-cli pcb export drill \
+            --format excellon --drill-origin absolute --excellon-units mm \
+            -o build/fabrication/gerbers/ BLDC_Motor_Driver.kicad_pcb
+
+          cd build/fabrication/gerbers
+          zip -q -r ../BLDC_Motor_Driver_JLCPCB_Gerbers.zip .
+
+      - name: Export BOM and component positions
+        run: |
+          kicad-cli sch export bom \
+            -o build/bom/BLDC_Motor_Driver_BOM.csv BLDC_Motor_Driver.kicad_sch
+
+          kicad-cli pcb export pos \
+            --format csv --units mm --side both --exclude-dnp \
+            -o build/bom/BLDC_Motor_Driver_Positions.csv BLDC_Motor_Driver.kicad_pcb
+
+      - name: Get InteractiveHtmlBom
+        uses: actions/checkout@v4
+        with:
+          repository: openscopeproject/InteractiveHtmlBom
+          ref: v2.12.0
+          path: .ci/InteractiveHtmlBom
+
+      - name: Export interactive BOM
+        env:
+          INTERACTIVE_HTML_BOM_NO_DISPLAY: "1"
+        run: |
+          python3 .ci/InteractiveHtmlBom/InteractiveHtmlBom/generate_interactive_bom.py \
+            --no-browser \
+            --dest-dir build/bom \
+            --name-format BLDC_Motor_Driver_InteractiveBOM \
+            BLDC_Motor_Driver.kicad_pcb
+
+      - name: Upload build outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-outputs
+          path: build/
+          if-no-files-found: warn
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: kicad-outputs
+          path: build
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          if gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1; then
+            gh release upload "${GITHUB_REF_NAME}" \
+              build/docs/BLDC_Motor_Driver.pdf \
+              build/3d/BLDC_Motor_Driver.step \
+              build/fabrication/BLDC_Motor_Driver_JLCPCB_Gerbers.zip \
+              build/bom/BLDC_Motor_Driver_BOM.csv \
+              build/bom/BLDC_Motor_Driver_Positions.csv \
+              build/bom/BLDC_Motor_Driver_InteractiveBOM.html \
+              build/drc-report.txt \
+              --clobber
+          else
+            gh release create "${GITHUB_REF_NAME}" \
+              build/docs/BLDC_Motor_Driver.pdf \
+              build/3d/BLDC_Motor_Driver.step \
+              build/fabrication/BLDC_Motor_Driver_JLCPCB_Gerbers.zip \
+              build/bom/BLDC_Motor_Driver_BOM.csv \
+              build/bom/BLDC_Motor_Driver_Positions.csv \
+              build/bom/BLDC_Motor_Driver_InteractiveBOM.html \
+              build/drc-report.txt \
+              --verify-tag --generate-notes
+          fi
